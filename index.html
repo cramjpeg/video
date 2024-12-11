@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background: linear-gradient(to bottom, white, #111111); /* Subtle gradient */
+            margin: 0;
+            padding: 0;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+            flex-direction: column;
+        }
+        h1 {
+            color: white;
+        }
+        .video-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        iframe {
+            border: none;
+        }
+        .bottom-link {
+            margin-top: 20px;
+        }
+        a {
+            color: lightblue;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <div class="anaglyph-line"></div>
+        <iframe src="https://drive.google.com/file/d/12gKSebw7-1unRihfk6ClN3U3QDeZSleS/preview" width="560" height="315" allow="autoplay"></iframe>
+        <div class="anaglyph-line"></div>
+    </div>
+    <div class="bottom-link">
+        <a href="page1.html">Go back </a>
+    </div>
+</body>
+</html>
